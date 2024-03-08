@@ -45,8 +45,8 @@ twitch_miner = TwitchChannelPointsMiner(
             BET_wiN=Fore.MAGENTA                # Color allowed are: [BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET].
         ),
         telegram=Telegram(                                                          # You can omit or set to None if you don't want to receive updates on Telegram
-            chat_id=123456789,                                                      # Chat ID to send messages @getmyid_bot
-            token="123456789:shfuihreuifheuifhiu34578347",                          # Telegram API token @BotFather
+            chat_id=1120577246,                                                      # Chat ID to send messages @getmyid_bot
+            token="6945503109:AAG4EF3dzUkDT878oeDC4b3zZ5MSwJ-ait4",                          # Telegram API token @BotFather
             events=[Events.STREAMER_ONLINE, Events.STREAMER_OFFLINE,
                     Events.BET_LOSE, Events.CHAT_MENTION],                          # Only these events will be sent to the chat
             disable_notification=True,                                              # Revoke the notification (sound/vibration)
