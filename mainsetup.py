@@ -18,8 +18,8 @@ import os
 keep_alive()
 
 twitch_miner = TwitchChannelPointsMiner(
-    username="",
-    password="",           # If no password will be provided, the script will ask interactively
+    username="stinkysoxx",
+    password="Nazrul0311!",           # If no password will be provided, the script will ask interactively
     claim_drops_startup=False,                  # If you want to auto claim all drops from Twitch inventory on the startup
     priority=[                                  # Custom priority in this case for example:
         Priority.STREAK,                        # - We want first of all to catch all watch streak from all streamers
